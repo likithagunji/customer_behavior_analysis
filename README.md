@@ -1,6 +1,5 @@
 # customer_behavior_analysis
 Data Analytics project showcasing customer behavior analysis using python, sql and power BI
-
 # Data Analytics Project
 
 ## Overview
@@ -9,6 +8,7 @@ This project demonstrates an end-to-end **Data Analytics workflow**, starting fr
 
 The project uses **Python for data analysis and cleaning, PostgreSQL for SQL-based analysis, and Power BI for interactive dashboard development**. A final project report and presentation were also created to communicate the key findings.
 
+---
 
 ## Dataset
 
@@ -24,7 +24,7 @@ The dataset was initially loaded into Python for:
 * Feature creation
 * Exploratory Data Analysis (EDA)
 
-
+---
 
 ## Tools & Technologies
 
@@ -40,6 +40,7 @@ The dataset was initially loaded into Python for:
 | **Gamma**               | Project presentation                            |
 | **Microsoft Excel/CSV** | Dataset handling and supporting analysis        |
 
+---
 
 ## Project Workflow
 
@@ -47,20 +48,20 @@ The dataset was initially loaded into Python for:
 
 The dataset was imported into Python using Pandas.
 
-python
+```python
 import pandas as pd
 
 df = pd.read_csv("dataset.csv")
-
+```
 
 Initial checks were performed to understand the dataset structure:
 
-python
+```python
 df.head()
 df.shape
 df.info()
 df.describe()
-
+```
 
 ### 2. Exploratory Data Analysis (EDA)
 
@@ -89,10 +90,10 @@ The dataset was prepared for analysis by:
 
 Example:
 
-python
+```python
 df.isnull().sum()
 df.duplicated().sum()
-
+```
 
 ### 4. Feature Engineering
 
@@ -100,7 +101,7 @@ Additional analytical columns were created where required.
 
 For example, customer ages were categorized into groups:
 
-python
+```python
 labels = ['Young Adult', 'Adult', 'Middle-aged', 'Senior']
 
 df['age_group'] = pd.qcut(
@@ -108,7 +109,7 @@ df['age_group'] = pd.qcut(
     q=4,
     labels=labels
 )
-
+```
 
 ### 5. PostgreSQL & SQL Analysis
 
@@ -129,14 +130,14 @@ SQL queries were then used to perform analytical tasks such as:
 
 Example:
 
-sql
+```sql
 SELECT
     category,
     SUM(sales) AS total_sales
 FROM customer_data
 GROUP BY category
 ORDER BY total_sales DESC;
-
+```
 
 ### 6. Power BI Dashboard
 
@@ -153,7 +154,7 @@ The dashboard focuses on presenting important business metrics and trends throug
 
 The dashboard enables users to explore the data and identify important patterns more easily.
 
-
+---
 
 ## Dashboard
 
@@ -169,11 +170,11 @@ The Power BI dashboard provides an interactive view of the analyzed data.
 
 > Add your Power BI dashboard screenshot here.
 
-text
+```text
 ![Power BI Dashboard](images/dashboard.png)
+```
 
-
-
+---
 
 ## Results & Insights
 
@@ -190,7 +191,7 @@ Key outcomes included:
 
 The project demonstrates how raw data can be transformed into **structured insights and business-friendly visualizations**.
 
-
+---
 
 ## Project Report
 
@@ -205,17 +206,17 @@ A detailed project report was prepared covering:
 7. Key Findings
 8. Conclusion
 
-
+---
 
 ## Presentation
 
 A presentation was created using **Gamma** to communicate the project workflow, analysis, dashboard, and key findings in a concise format.
 
-
+---
 
 ## Project Structure
 
-text
+```text
 Data-Analytics-Project/
 │
 ├── data/
@@ -240,67 +241,70 @@ Data-Analytics-Project/
 │   └── dashboard.png
 │
 └── README.md
+```
 
-
+---
 
 ## How to Run
 
 ### 1. Clone the Repository
 
-bash
+```bash
 git clone <repository-url>
 cd Data-Analytics-Project
-
+```
 
 ### 2. Install Python Libraries
 
-bash
+```bash
 pip install pandas numpy sqlalchemy psycopg2-binary matplotlib seaborn
-
+```
 
 ### 3. Run the Jupyter Notebook
 
 Open:
 
-bash
+```bash
 jupyter notebook
-
+```
 
 Then run the notebook:
 
-text
+```text
 notebooks/data_analysis.ipynb
-
+```
 
 ### 4. Set Up PostgreSQL
 
 Create a PostgreSQL database and update the database connection details in the Python script/notebook.
 
 Example:
-python
+
+```python
 from sqlalchemy import create_engine
 
 engine = create_engine(
     "postgresql+psycopg2://username:password@localhost:5432/database_name"
 )
-
+```
 
 Run the SQL queries from:
 
-text
+```text
 sql/analysis_queries.sql
-
+```
 
 ### 5. Open the Power BI Dashboard
 
 Open:
 
-text
+```text
 powerbi/dashboard.pbix
+```
 
 Refresh the data connection if required.
 
-
+---
 
 ## Skills Demonstrated
 
@@ -318,7 +322,7 @@ Refresh the data connection if required.
 * **Data Storytelling**
 * **Reporting & Presentation**
 
-
+---
 
 ## Conclusion
 
