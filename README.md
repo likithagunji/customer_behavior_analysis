@@ -8,6 +8,9 @@ This project is a hands-on **Data Analytics portfolio project** focused on analy
 
 The project demonstrates an end-to-end analytics workflow using **Python, PostgreSQL, SQL, and Power BI**, followed by a project report and presentation.
 
+<img width="4872" height="2656" alt="image" src="https://github.com/user-attachments/assets/37b5c011-0f25-4c5e-91f9-0ba3fc76d55b" />
+
+
 **Workflow:**
 Data Preparation → EDA → Data Cleaning → SQL Analysis → Power BI Dashboard → Report → Presentation
 
