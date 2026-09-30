@@ -302,7 +302,7 @@ Open:
 powerbi/dashboard.pbix
 ```
 
-Refresh the data connection if required.
+
 
 ---
 
@@ -328,4 +328,3 @@ Refresh the data connection if required.
 
 This project demonstrates an end-to-end approach to data analytics, from **raw data preparation to extracting insights and presenting them through interactive dashboards and reports**.
 
-It highlights practical experience with Python, SQL, PostgreSQL, Power BI, data visualization, and analytical storytelling.
