@@ -1,7 +1,6 @@
-# customer_behavior_analysis
+# Customer Shopping Behavior Analysis
 Data Analytics project showcasing customer behavior analysis using python, sql and power BI
 
-# Customer Shopping Behavior Analysis
 
 ## 📌 Project Overview
 
@@ -80,8 +79,6 @@ EDA was performed using Python and Pandas to identify patterns and trends relate
 ### 4. Feature Engineering
 
 Additional analytical columns were created to support deeper analysis.
-
-For example, customers were categorized into age groups using quartile-based segmentation.
 
 ### 5. PostgreSQL & SQL Analysis
 
