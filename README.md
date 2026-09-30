@@ -112,11 +112,8 @@ An interactive **Power BI dashboard** was created to communicate the analysis th
 
 ### Dashboard Preview
 
-Add your dashboard screenshot here:
+<img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/a957ca75-0f22-47a5-b8e7-027e8d74f581" />
 
-```markdown
-![]<img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/29115895-2d31-4597-abda-0baabbc6be49" />
-(images/dashboard.png)
 ```
 
 ---
