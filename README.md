@@ -13,7 +13,7 @@ The project uses **Python for data analysis and cleaning, PostgreSQL for SQL-bas
 
 ## Dataset
 
-The project uses a structured dataset containing customer and transaction-related information.
+The project uses a structured dataset containing customer shopping and transaction-related information.
 
 The dataset was initially loaded into Python for:
 
